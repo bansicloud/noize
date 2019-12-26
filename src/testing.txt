@@ -1,0 +1,54 @@
+      <div className="row">
+        <div className="song">
+          <img src={i1} alt="Relaxing GIF" className="image" />
+          <h4>Waterfall in a forest</h4>
+        </div>
+        <div className="song">
+          <img src={i2} alt="Relaxing GIF" className="image" />
+          <h4>Thunderstorm & Rain</h4>
+        </div>
+        <div className="song">
+          <img src={i3} alt="Relaxing GIF" className="image" />
+          <h4>Cafe Music</h4>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="song">
+          <img src={i4} alt="Relaxing GIF" className="image" />
+          <h4>Brown Noise</h4>
+        </div>
+        <div className="song">
+          <img src={i5} alt="Relaxing GIF" className="image" />
+          <h4>Rainy day</h4>
+        </div>
+        <div className="song">
+          <img src={i6} alt="Relaxing GIF" className="image" />
+          <h4>Medeival Town</h4>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="song">
+          <img src={i7} alt="Relaxing GIF" className="image" />
+          <h4>Celestial Noise</h4>
+        </div>
+        <div className="song">
+          <img src={i8} alt="Relaxing GIF" className="image" />
+          <h4>Metropolis Soundscape</h4>
+        </div>
+        <div className="song">
+          <img src={i9} alt="Relaxing GIF" className="image" />
+          <h4>Snowy Blizzard</h4>
+        </div>
+      </div>
+
+      <div className="row">
+        <div
+          className="song"
+          onClick={e => props.songClicked(ten, "Forest Ambience")}
+        >
+          <img src={i10} alt="Relaxing GIF" className="image" />
+          <h4>Forest Ambience</h4>
+        </div>
+      </div>
